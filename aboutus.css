@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+menu {
+    width: 100%;
+    height: 10vh;
+}
+
+menu>h2 {
+    color: red;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+menu>div {
+    background-color: rgb(42, 40, 40);
+    width: 100%;
+    height: 35px;
+    padding-top: 15px;
+
+}
+
+a {
+    padding: 17.5px 30px;
+    text-decoration: none;
+    color: white;
+    
+
+
+}
+
+a:hover {
+    background-color: aqua;
+}
+nav{
+    text-align: center;
+    background-color: rgb(42, 45, 66);
+    width:100%;
+    height:18vh;
+    justify-content: center;
+        
+    display:flex;
+    
+}
+.div{
+    width:40%;
+    text-transform:capitalize;
+    color: white;
+}
+.div h3{
+    margin:20px;
+    font-size:30px;
+    
+}
+.div p{
+    font-size: 10px;
+        
+}
+.main{
+    justify-content:space-between;
+    align-items: center;
+    text-align:center;
+    
+    
+
+
+}
+.imgst{
+    justify-content: space-between;
+    align-items: center;
+        text-align: center;
+        display:flex;
+    width: 100%;
+}
+.main img{
+    
+    padding-top:10px;
+    padding-bottom:40px;
+    
+}
+.store{
+        width:25%;
+        height:50vh;
+        padding-left: 45px;
+        
+}
+ .store1{
+    width:25%;
+    height:50vh;
+ }
+ .store2{
+    width:25%;
+    height:50vh;
+    padding-right: 45px;
+ }
+ .city{
+    justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        padding-bottom:30px;
+
+ }
+ span>h3{
+    font-weight:600;
+    font-size:25px;
+    padding-bottom: 30px;
+ }
+.kandy {
+    padding-left: 150px;
+    width:10%;
+ }
+ .kandy1{
+    padding-right:30px;
+    width:10%;
+ }
+ .kandy2{
+    padding-right:150px;
+    width:10%;
+ }
+ 

@@ -1,0 +1,132 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+menu {
+    width: 100%;
+    height: 10vh;
+}
+
+menu>h2 {
+    color: red;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+menu>div {
+    background-color: rgb(42, 40, 40);
+    width: 100%;
+    height: 35px;
+    padding-top: 15px;
+
+}
+
+a {
+    padding: 17.5px 30px;
+    text-decoration: none;
+    color: white;
+  
+
+
+
+}
+
+a:hover {
+    background-color: aqua;}
+.main {
+    width: 100%;
+    height: 5.5vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    text-transform: capitalize;
+    background-color: rgb(15, 210, 210);
+    color: white;
+
+}
+
+.div {
+    cursor: alias;
+}
+
+.women {
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 320px;
+
+}
+
+.mens {
+    text-align: center;
+    margin: 100px;
+
+}
+
+.kids {
+    margin-right: 20px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+.menu {
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+}
+
+table {
+
+    width: 100%;
+    height: 80%;
+    margin-top: 5%;
+
+    border-collapse: collapse;
+}
+
+.tr {
+    border-bottom: 0.5px solid black;
+    margin: 0%;
+
+}
+
+.img {
+    width: 20vh;
+        height: 20vh;
+    margin: 10px
+}
+
+td {
+
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.mai {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    bottom:0;
+
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}

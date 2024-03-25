@@ -1,0 +1,103 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100vh;
+}
+menu{
+    width:100%;
+    height:10vh;
+}
+menu >h2{
+    width:100%;
+    height:30px;
+    
+}
+h2>img{
+    width:90px;
+    height:30px;
+}
+menu>div{
+    background-color:rgb(42, 40, 40);
+    width:100%;
+    height:35px;
+    padding-top: 15px;
+   
+}
+a{  
+   padding:17px 30px;
+    text-decoration:none;
+    color: white;
+}
+a:hover{
+    background-color:aqua;
+}
+.section{
+    width:100%;
+    height:100vh;
+    text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color:red;
+}
+.main{
+    background-image: url(./home1.jpg);
+    width:90%;
+    height:50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.main .wel{
+    align-items:center;
+    display:flex;
+    justify-content:left;
+    padding-top:315px;
+    font-size:30px;
+    padding-left:85px;
+    text-transform:capitalize;
+    animation: size 5s infinite linear;
+   animation-timing-function: ease-in-out;
+    
+}
+@keyframes size{
+    from{
+        padding-left: 85px;
+    }
+    to{
+        padding-left: 260px;
+    }
+}
+.len{
+    font-style: italic;
+    text-transform: uppercase;
+
+}
+.footer{
+    bottom:0;
+    background-color:aqua;
+    width:100%;
+    height:12vh;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    position:fixed
+
+
+}
+.footermenu{
+    width:30%;
+    text-align:center;
+}
+.footer img{
+    width:20px;
+    height:20px;
+}
